@@ -1,6 +1,7 @@
 getRandomInfluencers();
 globalSubject();
-
+politicalSubject();
+avoidSubject();
 function getRandomInfluencers() {
     
     var influencers = [];
@@ -105,6 +106,16 @@ function politicalSubject(){
 
     for( let i = 0; i < 5; i++){
         document.getElementById("politicalhash").innerHTML += "<li class='lihashtag m-3'>"+shuffledpolitical[i]+"</li>";
+    }    
+}
+
+function avoidSubject(){
+    
+    var avoid = ["#veganReligion+","#Eugenics","#UseOfPersonalData","#Intelligenge","#School","#Book","#Write","#Read"];
+    var shuffledavoid = shuffle(avoid);                
+
+    for( let i = 0; i < 3; i++){
+        document.getElementById("avoidSubject").innerHTML += "<li class='lihashtag m-3'>"+shuffledavoid[i]+"</li>";
     }    
 }
 
