@@ -53,6 +53,7 @@ aside {
     font-weight: 500;
     font-size: 18px;
     line-height: 21px;
+    margin: 0 0 16px 0;
     color: #4E4E4E;
 }
 
@@ -146,4 +147,5 @@ aside {
 
 .bg-darkpurple{
     background-color: #1C1D4E;
+    border-radius: 16px;
 }
