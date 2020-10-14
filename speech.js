@@ -112,7 +112,7 @@ function responseAnito(word){
 function histo(){
   for( let i = 0; i < localStorage.length; i++){
       var temp = localStorage.getItem(localStorage.key(i));
-      document.getElementById("historique").innerHTML += "<div class='col-12'><div class='jumbotron jumbotron-fluid bg-jumbotron p-2'><div class='container'><h1 class='display-1 txt-jumbotron'>"+localStorage.key(i)+"</h1><p class='text-right txt-jumbotron-bold'>"+temp+"</p></div></div></div>"
+      document.getElementById("historique").innerHTML += "<div class='col-12'><div class='jumbotron jumbotron-fluid bg-jumbotron p-2'><div class='container'><h1 class='display-1 txt-jumbotron'>"+temp+"</h1><p class='text-right txt-jumbotron-bold'>"+localStorage.key(i)+"</p></div></div></div>"
   }
 }
 

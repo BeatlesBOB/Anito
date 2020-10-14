@@ -10,6 +10,11 @@
     <script src="https://kit.fontawesome.com/42a5ab35d8.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index2.css">
+
+    <link rel="stylesheet" href="index3.css">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js" integrity="sha512-WIklPM6qPCIp6d3fSSr90j+1unQHUOoWDS4sdTiR8gxUTnyZ8S2Mr8e10sKKJ/bhJgpAa/qG068RDkg6fIlNFA==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/addons/p5.sound.js" integrity="sha512-KxzVm+IqxNNq0+SzT/zzd5PHxY4LPrN+v5gZJ6+JKqjeU3Cr4y/djAg5eNlKDWurn1SeKZpql/yeOMWblMSzOg==" crossorigin="anonymous"></script>
     <script src="sketch.js"></script> -->
@@ -32,7 +37,7 @@
             <div class="row">
               <menu class="p-3 col-12">
                 <div class="float-left">
-                  <img src="img/logoname.svg" id="startvoice" />
+                  <img src="img/trends.svg" id="startvoice" />
                 </div>
                 <div class="d-flex justify-content-end">
                   <div class="d-flex align-items-center">
@@ -41,10 +46,198 @@
                   </div>
                 </div>
               </menu>
-              <div class="col-12">
-                                     
+              <div class="col-12 p-0">
+                <div class="row">
+                  <menu class="p-0 col-12 mb-5">
+                    <div class="d-flex flex-row mb-3 w-100">
+                      <div class="pr-2 pt-2 pb-2 menuTrend">All</div>
+                      <div class="p-2 menuTrend">Twitter</div>
+                      <div class="p-2 menuTrend">Facebook</div>
+                      <div class="p-2 menuTrend">Instagram</div>
+                      <div class="p-2 menuTrend">Reddit</div>
+                      <div class="p-2 menuTrend">Tiktok</div>
+                      <div class="p-2 menuTrend"><i class="fas fa-plus"></i></div>
+                      <div class="d-flex flex-row-reverse bd-highlight w-100">
+                        <div class="p-2 menuTrend">Last 24</div>
+                        <div class="p-2 menuTrend">This week</div>
+                        <div class="p-2 menuTrend">This month</div>
+                      </div>
+                    </div>
+                  </menu>
+                  <div class="col-5">
+                    <div id="top">
+                      <h2 class="title2">Social media impressions</h2>
+                      <div class="p-4 bg-light1">
+                        <ul class="bargraph">
+                          <li class="top">
+                            <span class="imgmention">
+                              <img class="img-profil ml-2 mr-2"src="img/profil.jpeg " alt="Avatar">
+                            </span>
+                            <span class="nommention ml-3">Elon Musk</span>
+                            <span class="mentions">4 397k mentions</span>
+                          </li>
+                          <li class="midtop">
+                            <span class="imgmention">
+                              <img class="img-profil ml-2 mr-2"src="img/profil.jpeg " alt="Avatar">
+                            </span>
+                            <span class="nommention ml-3">Wejdene</span>
+                            <span class="mentions">2 761k mentions</span>
+                          </li>
+                          <li class="neutral">
+                            <span class="imgmention">
+                              <img class="img-profil ml-2 mr-2"src="img/profil.jpeg " alt="Avatar">
+                            </span>
+                            <span class="nommention ml-3">Ekaterina Poutine</span>
+                            <span class="mentions">1 492k mentions</span>
+                          </li>
+                          <li class="midbottom">
+                            <span class="imgmention">
+                              <img class="img-profil ml-2 mr-2"src="img/profil.jpeg " alt="Avatar">
+                            </span>
+                            <span class="nommention ml-3">Barron Trump</span>
+                            <span class="mentions">963k mentions</span>
+                          </li>
+                          <li class="bottom">
+                            <span class="imgmention">
+                              <img class="img-profil ml-2 mr-2"src="img/profil.jpeg " alt="Avatar">
+                            </span>
+                            <span class="nommention ml-3">Lorenzo</span>
+                            <span class="mentions">535k mentions%</span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-7">
+                    <h2 class="title2">New powerful influencers</h2>
+                    <div class="bg-light1">
+                      <div class="row">
+                          <div class='col-4'>
+                            <div class='d-flex bg-purple2 justify-content-center p-3 flex-column'>
+                              <img class='img-profil2 ml-2 mr-2 align-self-center'src="img/profil.jpeg" alt='Avatar'>
+                              <h3 class='nomEtoile mt-2'>Jules c'est le S</h3>
+                              <h4 class='nationEtoile mt-3'>Maitre de mon coeur</h4>
+                              <h5 class='metierEtoile m-0 p-0'>100%</h5>
+                              <h5 class='mentionEtoile mt-3'>1er</h5>
+                            </div>
+                          </div>
+
+                          <div class='col-4'>
+                            <div class='d-flex bg-purple2 justify-content-center p-3 flex-column'>
+                              <img class='img-profil2 ml-2 mr-2 align-self-center'src="img/profil.jpeg" alt='Avatar'>
+                              <h3 class='nomEtoile mt-2'>Jules c'est le S</h3>
+                              <h4 class='nationEtoile mt-3'>Maitre de mon coeur</h4>
+                              <h5 class='metierEtoile m-0 p-0'>100%</h5>
+                              <h5 class='mentionEtoile mt-3'>1er</h5>
+                            </div>
+                          </div>
+
+                          <div class='col-4'>
+                            <div class='d-flex bg-purple2 justify-content-center p-3 flex-column'>
+                              <img class='img-profil2 ml-2 mr-2 align-self-center'src="img/profil.jpeg" alt='Avatar'>
+                              <h3 class='nomEtoile mt-2'>Jules c'est le S</h3>
+                              <h4 class='nationEtoile mt-3'>Maitre de mon coeur</h4>
+                              <h5 class='metierEtoile m-0 p-0'>100%</h5>
+                              <h5 class='mentionEtoile mt-3'>1er</h5>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="row no-gutter">
+                      <div class="col-4">
+                        <h2 class="title2">Top global subjects</h2>
+                        <div class="bg-light">
+                          <div class="row">
+                            <div class="col-6 mt-4">
+                              <ul class="ulhashtag">
+                                <li class="lihashtag m-3">
+                                  #ChinaFirstLeadingPower
+                                </li>
+                                <li class="lihashtag m-3">
+                                  #ChinaFirstLeadingPower
+                                </li>
+                                <li class="lihashtag m-3">
+                                  #KylieJenner
+                                </li>
+                                <li class="lihashtag m-3">
+                                  #KylieJenner
+                                </li>
+                                <li class="lihashtag m-3">
+                                  #whoIsTheaHarper
+                                </li>
+                                <li class="lihashtag m-3">
+                                  #ElonMuskInvadeMars
+                                </li>
+                                <li class="lihashtag m-3">
+                                  #TrumpisBack
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="col-6">
+                              <lottie-player src="ydzqdpat.json" class="rotate"  background="transparent"  speed="1"  style="width: 100%;"  autoplay></lottie-player>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-4">
+                        <h2 class="title2">Top political subjects</h2>
+                        <div class="bg-light">
+                          <div class="row">
+                            <div class="col-6 mt-4">
+                              <ul class="ulhashtag">
+                                <li class="lihashtag m-3">
+                                  #PS10+
+                                </li>
+                                <li class="lihashtag m-3">
+                                  #WinterIsGone
+                                </li>
+                                <li class="lihashtag m-3">
+                                  #LGBTinvisibilityDay
+                                </li>
+                                <li class="lihashtag m-3">
+                                  #doesTomHollandAge
+                                </li>
+                                <li class="lihashtag m-3">
+                                  #KimKardashianRobot
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="col-6">
+                              <lottie-player src="mfeauaft.json"  background="transparent"  speed="1"  style="width: 100%;"  loop></lottie-player>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-4">
+                        <h2 class="title2">Top political subjects</h2>
+                        <div class="bg-light">
+                          <div class="row">
+                            <div class="col-6 mt-4">
+                              <ul class="ulhashtag">
+                                <li class="lihashtag m-3">
+                                  #veganReligion
+                                </li>
+                                <li class="lihashtag m-3">
+                                  #Eugenics
+                                </li>
+                                <li class="lihashtag m-3">
+                                  UseOfPersonalData
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="col-6">
+                              <lottie-player src="warning.json"  background="transparent"  speed="1"  style="width: 80%;" autoplay></lottie-player>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-              
           </div>
           
 
@@ -57,6 +250,5 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <script src="random.js"></script>
-    <script src="speech.js"></script>
   </body>
 </html>
