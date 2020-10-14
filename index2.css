@@ -1,0 +1,172 @@
+/* Politician popularity */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allerta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,600&display=swap');
+.title2{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    
+    /* Gray text */
+    color: #4E4E4E;
+}
+.bg-purple0{
+    background-color: rgba(69, 73, 196,.5);
+    border-radius: 15px;
+}
+.bg-purple1{
+    background-color: rgba(69, 73, 196,.3);
+    border-radius: 15px;
+}
+.bg-purple2{
+    background-color: rgba(69, 73, 196,.15);
+    border-radius: 15px;
+}
+.bg-light1{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+}
+
+.titleCard{
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.subtitleCard{
+
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+
+.pourcentCard{
+font-family: 'Allerta', sans-serif;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+
+
+}
+.img-profil2 {
+    border-radius: 50%;
+    width: 3em;
+}
+
+
+
+.placeCard{
+    font-family: 'Allerta', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-align: center;
+    
+    
+}
+
+
+
+.bg-jumbotron2{
+    background-color: #ECEDF9 ;
+}
+
+.txt-jumbotron2{
+
+font-family: 'Raleway', sans-serif;    font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 120%;
+margin: 0;
+padding: 3px;
+/* Ocean Blue */
+color: #4549C4;
+
+}
+.bestdec1{
+    font-family: 'Raleway', sans-serif;    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    
+    
+    color: #7681B3;
+}
+
+.bestdec2{
+    font-family: 'Raleway', sans-serif;    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #4549C4;
+}
+
+.txt-law{
+
+    font-family: 'Raleway', sans-serif;    font-style: normal;
+    font-weight: bold;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+
+    /* Glaucous */
+    color: #7681B3;
+
+}
+.col20-4{
+    flex: 0 0 20%;
+    max-width: 20%;
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.followernumberard{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    margin: 0;
+
+    /* Ocean Blue */
+    color: #4549C4;
+}
+
+.followerCard{
+    font-family: 'Raleway', sans-serif; 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    margin: 0!important;
+    padding: 0;
+
+    /* Glaucous */
+    color: #7681B3;
+
+}

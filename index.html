@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/42a5ab35d8.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="index.css">
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js" integrity="sha512-WIklPM6qPCIp6d3fSSr90j+1unQHUOoWDS4sdTiR8gxUTnyZ8S2Mr8e10sKKJ/bhJgpAa/qG068RDkg6fIlNFA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/addons/p5.sound.js" integrity="sha512-KxzVm+IqxNNq0+SzT/zzd5PHxY4LPrN+v5gZJ6+JKqjeU3Cr4y/djAg5eNlKDWurn1SeKZpql/yeOMWblMSzOg==" crossorigin="anonymous"></script>
+    <script src="sketch.js"></script> -->
+
+    <title>This is the voice</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+          <aside class="col-05 px-0 fixed-top h-100">
+            <div class="menu h-100">
+              <div class="d-flex flex-column align-items-center">
+                <div class="d-flex limenu mt-5"title="home"><img class="align-self-center iconmenu " src="img/1menu.svg"></img></div>
+                <div class="d-flex limenu"title="home"><img class="align-self-center iconmenu" src="img/2menu.svg"></img></i></div>
+                <div class="d-flex limenu"title="home"><img class="align-self-center iconmenu" src="img/3menu.svg"></img></i></div>
+              </div>
+            </div>
+          </aside>
+          <main class="col offset-05 container pl-5 pr-5 pt-2">
+            <div class="row">
+              <menu class="p-3 col-12">
+                <div class="float-left">
+                  <img src="img/logoname.svg" id="startvoice" />
+                </div>
+                <div class="d-flex justify-content-end">
+                  <div class="d-flex align-items-center">
+                    <span id="nom"class="ml-2 mr-2">Théa Harper</span>
+                    <img class="img-profil ml-2 mr-2"src="img/profil.jpeg " alt="Avatar">
+                  </div>
+                </div>
+              </menu>
+              <div class="col-8 position-relative" id="Anito">
+                <p class="askquestion">Ask your question</p> 
+
+                <div class="bg-darkpurple">
+                  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                  <lottie-player src="Anito_pour_After.json"  background="transparent"  speed="1"  loop  autoplay id="lottieAnimation" style="height: 700px;"></lottie-player>
+                  <div class="input-parent d-flex justify-content-center">
+                    <div class="input-icon-wrap">
+                      <span class="input-icon logoinput"></span>
+                      <input type="text" class="input-with-icon" id="form-name">
+                      <span class="input-icon sendinput"id="sendinput"></span>
+                    </div>  
+                  </div>    
+                </div>                         
+              </div>
+              <div class="col-4" id="questions">
+                  <h2 class="askquestion">Previous questions</h2>
+                  <div class="row" id="historique">
+                    
+                    
+                    
+                  </div>
+              </div>
+          </div>
+          
+
+          </main>
+      </div>
+   </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="random.js"></script>
+    <script src="speech.js"></script>
+  </body>
+</html>

@@ -1,0 +1,5 @@
+<ul class="menu d-flex flex-column h">
+              <li class="d-flex limenu mt-5"title="home"><img class="align-self-center iconmenu" src="img/1menu.svg"></img></li>
+              <li class="d-flex limenu"title="home"><img class="align-self-center iconmenu" src="img/2menu.svg"></img></i></li>
+              <li class="d-flex limenu"title="home"><img class="align-self-center iconmenu" src="img/3menu.svg"></img></i></li>
+            </ul>
