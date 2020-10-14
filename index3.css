@@ -35,24 +35,55 @@
 .bargraph .top {
   background: rgba(69, 73, 196, .85);
   width: 95%;
+  animation-duration: 10s;
+  animation-name: growth1;
 }
 .bargraph .midtop {
   background: rgba(69, 73, 196, .65);
   width: 80%;
+  animation-duration: 10s;
+  animation-name: growth2;
 }
 .bargraph .neutral {
   width: 70%;
   background:  rgba(69, 73, 196, .5);
+  animation-duration: 10s;
+  animation-name: growth3;
 }
 .bargraph .midbottom {
   width: 60%;
-  background:  rgba(69, 73, 196, .35);;
+  background:  rgba(69, 73, 196, .35);
+  animation-duration: 10s;
+  animation-name: growth4;
 }
 .bargraph .bottom {
   width: 50%;
-  background:  rgba(69, 73, 196, .25);;
+  background:  rgba(69, 73, 196, .25);
+  animation-duration: 10s;
+  animation-name: growth5;
 }
 
+@keyframes growth1 {
+  0%   {width: 0%;}
+  100% {width: 95%;}
+}
+
+@keyframes growth2 {
+  0%   {width: 0%;}
+  100% {width: 80%;}
+}
+@keyframes growth3 {
+  0%   {width: 0%;}
+  100% {width: 70%;}
+}
+@keyframes growth4 {
+  0%   {width: 0%;}
+  100% {width: 60%;}
+}
+@keyframes growth5 {
+  0%   {width: 0%;}
+  100% {width: 50%;}
+}
 .nommention{
     position: absolute;
   top: 50%;
@@ -148,3 +179,5 @@ color: #4549C4;
     transform: rotate(90deg);
   }
 
+
+  
