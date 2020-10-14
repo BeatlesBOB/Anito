@@ -149,3 +149,15 @@ aside {
     background-color: #1C1D4E;
     border-radius: 16px;
 }
+
+.radius-16 {
+  border-radius: 16px;
+}
+
+.radius-8 {
+  border-radius: 8px;
+}
+
+.current-purple {
+  color: #4549C4;
+}

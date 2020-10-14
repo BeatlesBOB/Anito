@@ -35,31 +35,36 @@
 .bargraph .top {
   background: rgba(69, 73, 196, .85);
   width: 95%;
-  animation-duration: 10s;
+  border-radius: 8px 8px 8px 0;
+  animation-duration: 4s;
   animation-name: growth1;
 }
 .bargraph .midtop {
   background: rgba(69, 73, 196, .65);
   width: 80%;
-  animation-duration: 10s;
+  border-radius: 0 0 8px 0;
+  animation-duration: 4s;
   animation-name: growth2;
 }
 .bargraph .neutral {
   width: 70%;
   background:  rgba(69, 73, 196, .5);
-  animation-duration: 10s;
+  border-radius: 0 0 8px 0;
+  animation-duration: 4s;
   animation-name: growth3;
 }
 .bargraph .midbottom {
   width: 60%;
   background:  rgba(69, 73, 196, .35);
-  animation-duration: 10s;
+  border-radius: 0 0 8px 0;
+  animation-duration: 4s;
   animation-name: growth4;
 }
 .bargraph .bottom {
   width: 50%;
   background:  rgba(69, 73, 196, .25);
-  animation-duration: 10s;
+  border-radius: 0 0 8px 8px;
+  animation-duration: 4s;
   animation-name: growth5;
 }
 
@@ -172,12 +177,28 @@ color: #4549C4;
 
   .ulhashtag{
     list-style-type: none;
-
-  }
+    padding: 0;  }
 
   .rotate{
     transform: rotate(90deg);
   }
 
+  .bg-light1 {
+    background-color: #ffffff;
+  }
 
+  dl, ol, ul {
+    margin-bottom: 0;
+  }
+
+  .current-purple {
+    color: #4549C4;
+  }
+
+  .container-h {
+    height: 249px;
+  }
   
+  .col-6 {
+    padding: 0;
+  }
