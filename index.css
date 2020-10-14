@@ -6,13 +6,12 @@ body, html {
     background-color: #F8F5F3;
   }
   
-  .menu{
-    width: 100%;
-    padding: 0;
-    background: #4549C4;
-    box-shadow: 0px 0px 38px rgba(0, 0, 0, 0.1);
-    border-radius: 0px 16px 16px 0px;
-  }
+aside {
+  padding: 0;
+  background: #4549C4;
+  box-shadow: 0px 0px 38px rgba(0, 0, 0, 0.1);
+  border-radius: 0px 16px 16px 0px;
+}
 
   div.limenu{
       height: 7em;
