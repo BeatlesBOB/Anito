@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+.questionResult{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    /* Gray text */
+    color: #4E4E4E;
+    opacity: 0.3;
+}
+
+
+.div1 {
+    background: rgba(69, 73, 196,.2);
+    flex: 0 0 50%;
+    max-width: 50%;
+    height: 156px;
+    
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 33.0909px;
+    line-height: 39px;
+    /* Ocean Blue */
+    color: #4549C4;
+}
+
+.div2 {
+    background: rgba(118, 129, 179,.1);
+    flex: 0 0 50%;
+    max-width: 50%;
+    height: 156px;
+
+
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 33.0909px;
+    line-height: 39px;
+
+    /* Glaucous */
+    color: #7681B3;
+
+}
+
+.dot1 {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background: #4549C4;
+    display: inline-block;
+}
+
+.dot2 {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background: #C8CDE1;
+    display: inline-block;
+}
+
+.trustpour{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    
+    /* Ocean Blue */
+    color: #4549C4;
+    
+}
+
+.emotion{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+
+    /* Gray text */
+    color: #4E4E4E;
+
+}
+
+.btnAnito{
+    
+
+background-color: #1B1B4C;
+border-radius: 8px;
+
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+
+/* White */
+color: #FFFFFF;
+
+
+}

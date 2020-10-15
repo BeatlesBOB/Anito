@@ -61,6 +61,9 @@ function responseAnito(word){
     responseAnito.push(word);
     aside(said,responseAnito)
     localStorage.setItem(say,word);
+    setTimeout(() => { location.replace("index4.html")}, 5000);
+    
+
   }
   if(word.includes("vidéo")){
     say ="23,9% serait d'accord d'augmenter la durée des videos au dela de 2 minutes";
@@ -69,6 +72,9 @@ function responseAnito(word){
     responseAnito.push(word);
     aside(said,responseAnito);
     localStorage.setItem(say,word);
+    setTimeout(() => { location.replace("index4.html")}, 5000);
+
+    
 
   }
   if(word.includes("politique")){
@@ -78,6 +84,8 @@ function responseAnito(word){
     responseAnito.push(word);
     aside(said,responseAnito);
     localStorage.setItem(say,word);
+    setTimeout(() => { location.replace("index4.html")}, 5000);
+
   }
   if(word.includes("enfant")){
     say ="58% serait d'accord d'implementer des puces éléctronique chez les enfants de 8 ans au lieu de 18 ans";
@@ -86,6 +94,8 @@ function responseAnito(word){
     responseAnito.push(word);
     aside(said,responseAnito);
     localStorage.setItem(say,word);
+    setTimeout(() => { location.replace("index4.html")}, 5000);
+
 
   }
   if(word.includes("pollution")){
@@ -95,6 +105,8 @@ function responseAnito(word){
     responseAnito.push(word);
     aside(said,responseAnito);
     localStorage.setItem(say,word);
+    setTimeout(() => { location.replace("index4.html")}, 5000);
+
 
   }
   if(word.includes("immigration")){
@@ -104,6 +116,8 @@ function responseAnito(word){
     responseAnito.push(word);
     aside(said,responseAnito);
     localStorage.setItem(say,word);
+    setTimeout(() => { location.replace("index4.html")}, 5000);
+
 
   }
   
