@@ -165,3 +165,7 @@ aside {
 .current-purple {
   color: #4549C4;
 }
+
+#startvoice{
+  cursor: pointer;
+}
