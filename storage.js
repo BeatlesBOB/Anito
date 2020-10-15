@@ -24,9 +24,9 @@ function getRandomPolitician() {
     
     var politician = [];
 
-    var Kylie = {name:"Kylie Jenner", post:"President", popularity:getRandomPop(),img:"img/profil.jpeg"};
+    var Kylie = {name:"Kylie Jenner", post:"President", popularity:getRandomPop(),img:"img/kylie.jpg"};
     var Thea = {name:"Thea Harper", post:"Vice-president", popularity:getRandomPop(),img:"img/profil.jpeg"};
-    var Travis  = {name:"Travis Scott", post:"Former president", popularity:getRandomPop(),img:"img/profil.jpeg"};
+    var Travis  = {name:"Travis Scott", post:"Former president", popularity:getRandomPop(),img:"img/tavis.jpg"};
     
 
     if (Kylie.popularity>Thea.popularity && Kylie.popularity>Travis.popularity)

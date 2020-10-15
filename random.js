@@ -6,9 +6,9 @@ function getRandomInfluencers() {
     
     var influencers = [];
 
-    var Tom = {name:"Tom Holland", nation:"British", metier:"Actor",mention:getRandomMen(),img:"img/profil.jpeg"};
-    var Ninja = {name:"Ninja", nation:"American", metier:"Video game streamer",mention:getRandomMen(),img:"img/profil.jpeg"};
-    var James = {name:"James Northon", nation:"Swedish", metier:"Bio tech-engineer",mention:getRandomMen(),img:"img/profil.jpeg"};
+    var Tom = {name:"Tom Holland", nation:"British", metier:"Actor",mention:getRandomMen(),img:"img/tom.jpg"};
+    var Ninja = {name:"Ninja", nation:"American", metier:"Video game streamer",mention:getRandomMen(),img:"img/ninja.jpg"};
+    var James = {name:"James Northon", nation:"Swedish", metier:"Bio tech-engineer",mention:getRandomMen(),img:"img/norton.jpg"};
     
 
     if (Tom.mention>Ninja.mention && Tom.mention>James.mention)
@@ -61,7 +61,7 @@ function getRandomInfluencers() {
 
     for( let i = 0; i < influencers.length; i++){
        
-        document.getElementById("influencers").innerHTML += "<div class='col-4 '><div class='d-flex bg-purple2 justify-content-center p-3 flex-column container-h'><img class='img-profil2 ml-2 mr-2 align-self-center'src='"+influencers[i].img+"' alt='Avatar'><h3 class='nomEtoile mt-2'>"+influencers[i].name+"</h3><h4 class='nationEtoile mt-3'>Maitre de mon coeur</h4><h5 class='metierEtoile m-0 p-0'>"+influencers[i].metier+"</h5><h5 class='mentionEtoile mt-3'>"+influencers[i].mention+"</h5></div></div>";
+        document.getElementById("influencers").innerHTML += "<div class='col-4 '><div class='d-flex bg-purple2 justify-content-center p-3 flex-column container-h'><img class='img-profil2 ml-2 mr-2 align-self-center'src='"+influencers[i].img+"' alt='Avatar'><h3 class='nomEtoile mt-2'>"+influencers[i].name+"</h3><h4 class='nationEtoile mt-3'>"+influencers[i].nation+"</h4><h5 class='metierEtoile m-0 p-0'>"+influencers[i].metier+"</h5><h5 class='mentionEtoile mt-3'>"+influencers[i].mention+"</h5></div></div>";
       
     }
     animateValue2(".mentionEtoile");

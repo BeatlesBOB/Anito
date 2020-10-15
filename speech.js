@@ -64,8 +64,8 @@ function responseAnito(word){
   var say;
   var said = [];
   var responseAnito = [];
-  if(word.includes("Twitter")){
-    say ="73,7% seront d'accord d'augmenter la limite de caractère";
+  if(word.toUpperCase().includes("TWITTER")){
+    say ="73,7% seraient d'accord d'augmenter la limite de caractères imposée sur le réseau social Twitter";
     speak(say);
     said.push(say)
     responseAnito.push(word);
@@ -75,8 +75,8 @@ function responseAnito(word){
     
 
   }
-  if(word.includes("vidéo")){
-    say ="23,9% serait d'accord d'augmenter la durée des videos au dela de 2 minutes";
+  if(word.toUpperCase().includes("VIDÉO")){
+    say ="23,9% seraient d'accord d'augmenter la durée des videos et films au-delà de 2 minutes";
     speak(say);
     said.push(say)
     responseAnito.push(word);
@@ -87,18 +87,9 @@ function responseAnito(word){
     
 
   }
-  if(word.includes("politique")){
-    say ="1,7% serait d'accord";
-    speak(say);
-    said.push(say)
-    responseAnito.push(word);
-    aside(said,responseAnito);
-    localStorage.setItem(say,word);
-    setTimeout(() => { location.replace("index4.html")}, 5000);
-
-  }
-  if(word.includes("enfant")){
-    say ="58% serait d'accord d'implementer des puces éléctronique chez les enfants de 8 ans au lieu de 18 ans";
+  
+  if(word.toUpperCase().includes("ENFANT")){
+    say ="58% seraient d'accord d'implémenter des puces éléctroniques chez les enfants de 8 ans au lieu de 18 ans";
     speak(say);
     said.push(say)
     responseAnito.push(word);
@@ -108,8 +99,8 @@ function responseAnito(word){
 
 
   }
-  if(word.includes("pollution")){
-    say ="74% des personnes pense que le réchauffement climatique n'existe pas et que c'est un coup monté des chinois";
+  if(word.toUpperCase().includes("POLLUTION")){
+    say ="74% des personnes pensent que le réchauffement climatique n'existe pas et que c'est un coup monté des chinois";
     speak(say);
     said.push(say)
     responseAnito.push(word);
@@ -119,8 +110,8 @@ function responseAnito(word){
 
 
   }
-  if(word.includes("immigration")){
-    say = "90% des personnes pensent que les frontières devraientt etre renforcer, accompagner d'une politique de réimigration des populations déja sur le territoire";
+  if(word.toUpperCase().includes("IMMIGRATION")){
+    say = "90% des personnes pensent que les frontières devraient être renforcées, accompagné d'une politique de réimigration des populations déjà sur le territoire";
     speak(say);
     said.push(say)
     responseAnito.push(word);
@@ -130,19 +121,42 @@ function responseAnito(word){
 
 
   }
+
+  if(word.toUpperCase().includes("EUGÉNISME")){
+    say = "85% des gens aimeraient pouvoir rejeter l'embryon en cas de maladie mentale ou d'handicap physique même mineur";
+    speak(say);
+    said.push(say)
+    responseAnito.push(word);
+    aside(said,responseAnito);
+    localStorage.setItem(say,word);
+    setTimeout(() => { location.replace("index4.html")}, 5000);
+
+  }
+
+  if(word.toUpperCase().includes("ARME")){
+    say = "70% des gens aimeraient pouvoir acheter et posséder des fusils d'assauts ainsi que pouvoir sortir en ville avec";
+    speak(say);
+    said.push(say)
+    responseAnito.push(word);
+    aside(said,responseAnito);
+    localStorage.setItem(say,word);
+    setTimeout(() => { location.replace("index4.html")}, 5000);
+
+  }
+
   
 }
 
 function histo(){
   for( let i = 0; i < localStorage.length; i++){
       var temp = localStorage.getItem(localStorage.key(i));
-      document.getElementById("historique").innerHTML += "<div class='col-12'><div class='jumbotron jumbotron-fluid bg-jumbotron p-2'><div class='container'><h1 class='display-1 txt-jumbotron'>"+temp+"</h1><p class='text-left txt-jumbotron-bold'>"+localStorage.key(i)+"</p></div></div></div>"
+      document.getElementById("historique").innerHTML += "<div class='col-12'><div class='jumbotron jumbotron-fluid bg-jumbotron p-2'><div class='container'><h1 class='display-1 txt-jumbotron'>"+temp+"</h1><p class='text-right txt-jumbotron-bold'>"+localStorage.key(i)+"</p></div></div></div>"
   }
 }
 
 function aside(tabsaid, tabquestion){
   for(var i=0; i<tabsaid.length;i++){
-    document.getElementById("historique").innerHTML += "<div class='col-12'><div class='jumbotron jumbotron-fluid bg-jumbotron p-2'><div class='container'><h1 class='display-1 txt-jumbotron'>"+tabquestion[i]+"</h1><p class='text-left txt-jumbotron-bold'>"+tabsaid[i]+"</p></div></div></div>"
+    document.getElementById("historique").innerHTML += "<div class='col-12'><div class='jumbotron jumbotron-fluid bg-jumbotron p-2'><div class='container'><h1 class='display-1 txt-jumbotron'>"+tabquestion[i]+"</h1><p class='text-right txt-jumbotron-bold'>"+tabsaid[i]+"</p></div></div></div>"
   }
   // tabsaid.forEach(element => document.getElementById("historique").innerHTML += "<div class='col-12'><div class='jumbotron jumbotron-fluid bg-jumbotron p-2'><div class='container'><h1 class='display-1 txt-jumbotron'>Fluid jumbotron</h1><p class='text-left txt-jumbotron-bold'>This is a modified jumbotron that occupies the entire horizontal space of its parent.</p></div></div></div>");  
 }
