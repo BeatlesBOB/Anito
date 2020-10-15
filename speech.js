@@ -126,15 +126,15 @@ function responseAnito(word){
 function histo(){
   for( let i = 0; i < localStorage.length; i++){
       var temp = localStorage.getItem(localStorage.key(i));
-      document.getElementById("historique").innerHTML += "<div class='col-12'><div class='jumbotron jumbotron-fluid bg-jumbotron p-2'><div class='container'><h1 class='display-1 txt-jumbotron'>"+temp+"</h1><p class='text-right txt-jumbotron-bold'>"+localStorage.key(i)+"</p></div></div></div>"
+      document.getElementById("historique").innerHTML += "<div class='col-12'><div class='jumbotron jumbotron-fluid bg-jumbotron p-2'><div class='container'><h1 class='display-1 txt-jumbotron'>"+temp+"</h1><p class='text-left txt-jumbotron-bold'>"+localStorage.key(i)+"</p></div></div></div>"
   }
 }
 
 function aside(tabsaid, tabquestion){
   for(var i=0; i<tabsaid.length;i++){
-    document.getElementById("historique").innerHTML += "<div class='col-12'><div class='jumbotron jumbotron-fluid bg-jumbotron p-2'><div class='container'><h1 class='display-1 txt-jumbotron'>"+tabquestion[i]+"</h1><p class='text-right txt-jumbotron-bold'>"+tabsaid[i]+"</p></div></div></div>"
+    document.getElementById("historique").innerHTML += "<div class='col-12'><div class='jumbotron jumbotron-fluid bg-jumbotron p-2'><div class='container'><h1 class='display-1 txt-jumbotron'>"+tabquestion[i]+"</h1><p class='text-left txt-jumbotron-bold'>"+tabsaid[i]+"</p></div></div></div>"
   }
-  // tabsaid.forEach(element => document.getElementById("historique").innerHTML += "<div class='col-12'><div class='jumbotron jumbotron-fluid bg-jumbotron p-2'><div class='container'><h1 class='display-1 txt-jumbotron'>Fluid jumbotron</h1><p class='text-right txt-jumbotron-bold'>This is a modified jumbotron that occupies the entire horizontal space of its parent.</p></div></div></div>");  
+  // tabsaid.forEach(element => document.getElementById("historique").innerHTML += "<div class='col-12'><div class='jumbotron jumbotron-fluid bg-jumbotron p-2'><div class='container'><h1 class='display-1 txt-jumbotron'>Fluid jumbotron</h1><p class='text-left txt-jumbotron-bold'>This is a modified jumbotron that occupies the entire horizontal space of its parent.</p></div></div></div>");  
 }
 
 function speak(wordtoSpeech){

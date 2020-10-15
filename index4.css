@@ -18,7 +18,7 @@
     flex: 0 0 50%;
     max-width: 50%;
     height: 156px;
-    
+    border-radius: 16px 0 0 16px;
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -33,7 +33,7 @@
     flex: 0 0 50%;
     max-width: 50%;
     height: 156px;
-
+    border-radius: 0 16px 16px 0;
 
     font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -80,6 +80,7 @@
     font-weight: 600;
     font-size: 18px;
     line-height: 21px;
+    padding: 8px;
 
     /* Gray text */
     color: #4E4E4E;
@@ -103,4 +104,10 @@ line-height: 19px;
 color: #FFFFFF;
 
 
+}
+
+.btnAnito:hover {
+    background-color: #FFFFFF;
+    color: #1B1B4C;
+    border: solid thin #1B1B4C;
 }

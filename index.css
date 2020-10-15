@@ -19,9 +19,13 @@ aside {
   }
   img.iconmenu{
       width: 80%;
-      color: aliceblue;
+      opacity: 50%;
   }
 
+  img.iconmenu.current{
+    width: 80%;
+    opacity: 100%;
+}
 #title{
     font-family: 'Raleway', sans-serif;;
     font-style: normal;

@@ -91,7 +91,7 @@ function animateValue2(nom) {
 }
 
 function globalSubject(){
-    var glob = ["#ChinaFirstLeadingPower","#ChinaFirstLeadingPower","#KylieJenner","#KylieJenner","#whoIsTheaHarper","#ElonMuskInvadeMars","#TrumpisBack","#PuceOnChildren","#WewantreImmigration","#TheForceofWeapon","WeaponagainstsStorm"];
+    var glob = ["#ChinaFirstLeadingPower","#KylieJenner", "#whoIsTheaHarper","#ElonMuskInvadeMars","#TrumpisBack","#PuceOnChildren","#WewantreImmigration","#TheForceofWeapon","WeaponagainstsStorm"];
     var shuffledglob = shuffle(glob);
     for( let i = 0; i < 8; i++){
        
