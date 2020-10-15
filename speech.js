@@ -20,6 +20,16 @@ micro.onclick = function() {
   recognition.start();
 }
 
+var intro = document.getElementById("intro");
+intro.onclick = function() {
+  debut();
+}
+
+var outro = document.getElementById("outro");
+outro.onclick = function() {
+  fin();
+}
+
 var send = document.getElementById("sendinput");
 send.onclick = function() {
   var txtquest = document.getElementById("form-name").value
@@ -155,3 +165,10 @@ function speak(wordtoSpeech){
   
 }
 
+function debut(){
+  speak("Bonjour je suis Anito, une intelligence artificielle chargée de prédire l'opinion publique sur internet et nous sommes en 2064.");
+}
+
+function fin(){
+  speak("Ce qui n'ont pas levé la main, sortez de la salle.");
+}
